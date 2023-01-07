@@ -1,5 +1,5 @@
 # ResNet-classicifiction
-一个用ResNet18来分类猫狗图片的项目. 只需要PyTorch框架即可（CPU版）
+一个用ResNet18来分类猫狗图片的项目. 只需要PyTorch框架即可（CPU版）。i5-12500h训练时间约4min，是一个相当轻量的网络。识别成功率高达98%。喜欢请右上角Star一下，谢谢支持。
 ## 背景
 由于网络训练需要数据集的支持，为了获取合适且足够的数据集，我们将专项任务的方向指向于各大竞赛包括数模、阿里天池等。同时通过ResNet相关论文的查阅和比赛题目及数据集的收集，我们最终将目光放在了Kaggle竞赛中使用ResNet对猫狗进行二分类的题目，并下载数据集。
 ## 总体思想
@@ -28,5 +28,6 @@ resnet.py：包含训练及测试使用的各个模块
 下载链接：https://pan.baidu.com/s/1BwD3psguekhbJEErjFjdbA 
 提取码：dycv 
 
+喜欢请右上角Star一下，谢谢支持。
 ## 模型使用方法
 读resnet.py里的work_model()方法，你就知道了
